@@ -1,0 +1,44 @@
+name: advanced_skin_disease_detection
+description: A Flutter app for detecting skin diseases with personalized recommendations and specialist search.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Define your assets here
+  assets:
+    - Assets/disease_detection.png
+    - Assets/nearby_specialist.jpeg
+    - Assets/community_support.jpeg
+    - Assets/profile.png
+    - Assets/pic.png
+    - Assets/logo.jpeg
+    - Assets/hos.png
+
+  fonts:
+
+    - family: Jacques_Francois_Shadow
+
+      fonts:
+        - asset: Assets/fonts/Jacques_Francois_Shadow/JacquesFrancoisShadow-Regular.ttf
+          weight: 400
+
+    - family: Jaldi
+      fonts:
+        - asset: Assets/fonts/JacquesFrancoisShadow-Regular.ttf
+
+    - family: Itim
+      fonts:
+        - asset: Assets/fonts/Itim-Regular.ttf
