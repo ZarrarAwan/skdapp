@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "880094830907",
+    "project_id": "fyp-sdd",
+    "storage_bucket": "fyp-sdd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880094830907:android:82beb36b5920f80abe171e",
+        "android_client_info": {
+          "package_name": "com.app.sdd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClZ_XkWPCs_GJgHnmarZKUasXfFG9ea5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880094830907:android:73104ff232d5fddebe171e",
+        "android_client_info": {
+          "package_name": "com.sdd.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClZ_XkWPCs_GJgHnmarZKUasXfFG9ea5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
