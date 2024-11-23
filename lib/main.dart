@@ -1,19 +1,11 @@
-import 'package:advanced_skin_disease_detection/firebase_options.dart';
-import 'package:advanced_skin_disease_detection/widgets/map.dart';
 import 'package:advanced_skin_disease_detection/widgets/profile_screen.dart';
 import 'package:advanced_skin_disease_detection/widgets/signup_page.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:advanced_skin_disease_detection/widgets/take_picture.dart';
 import 'widgets/community_support_screen.dart';
-//import 'D:\/Flutter/flutter/skdapp/lib/widgets/map.dart';
+import 'widgets/map.dart';
 
-void main() async{
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-
-  );
+void main() {
   runApp(SkinDiseaseDetectorApp());
 }
 
